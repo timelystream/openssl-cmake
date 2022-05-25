@@ -34,6 +34,7 @@ set( CMAKE_DISABLE_IN_SOURCE_BUILD ON )
 set( CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" )
 
 option( WITH_APPS "Build applications" ON )
+set( WITH_APPS OFF )
 
 # OpenSSL version detection imported from FindOpenSSL.cmake
 
